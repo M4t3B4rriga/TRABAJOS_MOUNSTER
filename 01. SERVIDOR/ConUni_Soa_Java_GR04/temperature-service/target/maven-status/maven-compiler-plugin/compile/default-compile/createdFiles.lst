@@ -1,0 +1,5 @@
+com\conversion\controller\TemperatureController.class
+com\conversion\service\TemperatureService.class
+com\conversion\controller\LoginController.class
+com\conversion\model\User.class
+com\conversion\RestConfig.class
