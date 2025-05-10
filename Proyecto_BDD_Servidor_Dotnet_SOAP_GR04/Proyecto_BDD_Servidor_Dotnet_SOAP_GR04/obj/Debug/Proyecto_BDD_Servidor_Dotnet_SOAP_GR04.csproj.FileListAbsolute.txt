@@ -1,0 +1,7 @@
+C:\00. SOA_SIN_BDD\02. SOAP_DOTNET_CONUNI_GR04\01. SERVIDOR\Proyecto_BDD_Servidor_Dotnet_SOAP_GR04\Proyecto_BDD_Servidor_Dotnet_SOAP_GR04\bin\Debug\Proyecto_BDD_Servidor_Dotnet_SOAP_GR04.dll.config
+C:\00. SOA_SIN_BDD\02. SOAP_DOTNET_CONUNI_GR04\01. SERVIDOR\Proyecto_BDD_Servidor_Dotnet_SOAP_GR04\Proyecto_BDD_Servidor_Dotnet_SOAP_GR04\bin\Debug\Proyecto_BDD_Servidor_Dotnet_SOAP_GR04.dll
+C:\00. SOA_SIN_BDD\02. SOAP_DOTNET_CONUNI_GR04\01. SERVIDOR\Proyecto_BDD_Servidor_Dotnet_SOAP_GR04\Proyecto_BDD_Servidor_Dotnet_SOAP_GR04\bin\Debug\Proyecto_BDD_Servidor_Dotnet_SOAP_GR04.pdb
+C:\00. SOA_SIN_BDD\02. SOAP_DOTNET_CONUNI_GR04\01. SERVIDOR\Proyecto_BDD_Servidor_Dotnet_SOAP_GR04\Proyecto_BDD_Servidor_Dotnet_SOAP_GR04\obj\Debug\Proyecto_BDD_Servidor_Dotnet_SOAP_GR04.csproj.AssemblyReference.cache
+C:\00. SOA_SIN_BDD\02. SOAP_DOTNET_CONUNI_GR04\01. SERVIDOR\Proyecto_BDD_Servidor_Dotnet_SOAP_GR04\Proyecto_BDD_Servidor_Dotnet_SOAP_GR04\obj\Debug\Proyecto_BDD_Servidor_Dotnet_SOAP_GR04.csproj.CoreCompileInputs.cache
+C:\00. SOA_SIN_BDD\02. SOAP_DOTNET_CONUNI_GR04\01. SERVIDOR\Proyecto_BDD_Servidor_Dotnet_SOAP_GR04\Proyecto_BDD_Servidor_Dotnet_SOAP_GR04\obj\Debug\Proyecto_BDD_Servidor_Dotnet_SOAP_GR04.dll
+C:\00. SOA_SIN_BDD\02. SOAP_DOTNET_CONUNI_GR04\01. SERVIDOR\Proyecto_BDD_Servidor_Dotnet_SOAP_GR04\Proyecto_BDD_Servidor_Dotnet_SOAP_GR04\obj\Debug\Proyecto_BDD_Servidor_Dotnet_SOAP_GR04.pdb

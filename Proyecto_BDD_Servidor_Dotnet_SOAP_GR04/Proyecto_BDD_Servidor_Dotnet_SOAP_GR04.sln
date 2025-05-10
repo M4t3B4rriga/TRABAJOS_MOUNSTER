@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proyecto_BDD_Servidor_Dotnet_SOAP_GR04", "Proyecto_BDD_Servidor_Dotnet_SOAP_GR04\Proyecto_BDD_Servidor_Dotnet_SOAP_GR04.csproj", "{D77A70BA-E250-44A1-AC94-45B9B149AF50}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D77A70BA-E250-44A1-AC94-45B9B149AF50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D77A70BA-E250-44A1-AC94-45B9B149AF50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D77A70BA-E250-44A1-AC94-45B9B149AF50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D77A70BA-E250-44A1-AC94-45B9B149AF50}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0FF830AB-CC96-499D-873A-83EC17FD7349}
+	EndGlobalSection
+EndGlobal
