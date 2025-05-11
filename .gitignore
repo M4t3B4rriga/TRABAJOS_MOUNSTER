@@ -1,1 +1,25 @@
+
+# Archivos compilados de Java
+*.class
+*.war
+*.ear
+*.jar
+
+# Directorios generados
 target/
+bin/
+build/
+out/
+
+# Archivos de IDE
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+
+# Archivos temporales
+*.log
+*.tmp
+*.bak
+
