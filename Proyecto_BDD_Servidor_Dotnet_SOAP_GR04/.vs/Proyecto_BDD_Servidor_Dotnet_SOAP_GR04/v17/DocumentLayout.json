@@ -1,5 +1,6 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "WorkspaceRootPath": "C:\\00. SOA_SIN_BDD\\01. SOAP_JAVA_CONUNI_GR04\\Proyecto_BDD_Servidor_Dotnet_SOAP_GR04\\",
   "Documents": [
     {
@@ -17,6 +18,21 @@
     {
       "AbsoluteMoniker": "D:0:0:{D77A70BA-E250-44A1-AC94-45B9B149AF50}|Proyecto_BDD_Servidor_Dotnet_SOAP_GR04\\Proyecto_BDD_Servidor_Dotnet_SOAP_GR04.csproj|c:\\00. soa_sin_bdd\\01. soap_java_conuni_gr04\\proyecto_bdd_servidor_dotnet_soap_gr04\\proyecto_bdd_servidor_dotnet_soap_gr04\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D77A70BA-E250-44A1-AC94-45B9B149AF50}|Proyecto_BDD_Servidor_Dotnet_SOAP_GR04\\Proyecto_BDD_Servidor_Dotnet_SOAP_GR04.csproj|solutionrelative:proyecto_bdd_servidor_dotnet_soap_gr04\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+  "WorkspaceRootPath": "C:\\Users\\karol\\OneDrive\\Documentos\\git\\TRABAJOS_MOUNSTER\\Proyecto_BDD_Servidor_Dotnet_SOAP_GR04\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D77A70BA-E250-44A1-AC94-45B9B149AF50}|Proyecto_BDD_Servidor_Dotnet_SOAP_GR04\\Proyecto_BDD_Servidor_Dotnet_SOAP_GR04.csproj|C:\\Users\\karol\\OneDrive\\Documentos\\git\\TRABAJOS_MOUNSTER\\Proyecto_BDD_Servidor_Dotnet_SOAP_GR04\\proyecto_bdd_servidor_dotnet_soap_gr04\\espe.edu.ec.monster.controlador\\conversionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D77A70BA-E250-44A1-AC94-45B9B149AF50}|Proyecto_BDD_Servidor_Dotnet_SOAP_GR04\\Proyecto_BDD_Servidor_Dotnet_SOAP_GR04.csproj|solutionrelative:proyecto_bdd_servidor_dotnet_soap_gr04\\espe.edu.ec.monster.controlador\\conversionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D77A70BA-E250-44A1-AC94-45B9B149AF50}|Proyecto_BDD_Servidor_Dotnet_SOAP_GR04\\Proyecto_BDD_Servidor_Dotnet_SOAP_GR04.csproj|C:\\Users\\karol\\OneDrive\\Documentos\\git\\TRABAJOS_MOUNSTER\\Proyecto_BDD_Servidor_Dotnet_SOAP_GR04\\proyecto_bdd_servidor_dotnet_soap_gr04\\espe.edu.ec.monster.modelo\\iconversionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D77A70BA-E250-44A1-AC94-45B9B149AF50}|Proyecto_BDD_Servidor_Dotnet_SOAP_GR04\\Proyecto_BDD_Servidor_Dotnet_SOAP_GR04.csproj|solutionrelative:proyecto_bdd_servidor_dotnet_soap_gr04\\espe.edu.ec.monster.modelo\\iconversionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D77A70BA-E250-44A1-AC94-45B9B149AF50}|Proyecto_BDD_Servidor_Dotnet_SOAP_GR04\\Proyecto_BDD_Servidor_Dotnet_SOAP_GR04.csproj|c:\\users\\karol\\onedrive\\documentos\\git\\trabajos_mounster\\proyecto_bdd_servidor_dotnet_soap_gr04\\proyecto_bdd_servidor_dotnet_soap_gr04\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{D77A70BA-E250-44A1-AC94-45B9B149AF50}|Proyecto_BDD_Servidor_Dotnet_SOAP_GR04\\Proyecto_BDD_Servidor_Dotnet_SOAP_GR04.csproj|solutionrelative:proyecto_bdd_servidor_dotnet_soap_gr04\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+>>>>>>> a546df2fe68ad702127e585a83a4000280b9ef7e
     }
   ],
   "DocumentGroupContainers": [
@@ -26,6 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< HEAD
           "SelectedChildIndex": 1,
           "Children": [
             {
@@ -52,12 +69,28 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
               "WhenOpened": "2025-05-12T14:38:56.419Z",
+=======
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\karol\\OneDrive\\Documentos\\git\\TRABAJOS_MOUNSTER\\Proyecto_BDD_Servidor_Dotnet_SOAP_GR04\\Proyecto_BDD_Servidor_Dotnet_SOAP_GR04\\App.config",
+              "RelativeDocumentMoniker": "Proyecto_BDD_Servidor_Dotnet_SOAP_GR04\\App.config",
+              "ToolTip": "C:\\Users\\karol\\OneDrive\\Documentos\\git\\TRABAJOS_MOUNSTER\\Proyecto_BDD_Servidor_Dotnet_SOAP_GR04\\Proyecto_BDD_Servidor_Dotnet_SOAP_GR04\\App.config",
+              "RelativeToolTip": "Proyecto_BDD_Servidor_Dotnet_SOAP_GR04\\App.config",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAcwB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-05-11T07:47:25.99Z",
+>>>>>>> a546df2fe68ad702127e585a83a4000280b9ef7e
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "IConversionService.cs",
+<<<<<<< HEAD
               "DocumentMoniker": "C:\\00. SOA_SIN_BDD\\01. SOAP_JAVA_CONUNI_GR04\\Proyecto_BDD_Servidor_Dotnet_SOAP_GR04\\Proyecto_BDD_Servidor_Dotnet_SOAP_GR04\\espe.edu.ec.monster.modelo\\IConversionService.cs",
               "RelativeDocumentMoniker": "Proyecto_BDD_Servidor_Dotnet_SOAP_GR04\\espe.edu.ec.monster.modelo\\IConversionService.cs",
               "ToolTip": "C:\\00. SOA_SIN_BDD\\01. SOAP_JAVA_CONUNI_GR04\\Proyecto_BDD_Servidor_Dotnet_SOAP_GR04\\Proyecto_BDD_Servidor_Dotnet_SOAP_GR04\\espe.edu.ec.monster.modelo\\IConversionService.cs",
@@ -65,10 +98,20 @@
               "ViewState": "AgIAABIAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-12T14:38:44.327Z",
+=======
+              "DocumentMoniker": "C:\\Users\\karol\\OneDrive\\Documentos\\git\\TRABAJOS_MOUNSTER\\Proyecto_BDD_Servidor_Dotnet_SOAP_GR04\\Proyecto_BDD_Servidor_Dotnet_SOAP_GR04\\espe.edu.ec.monster.modelo\\IConversionService.cs",
+              "RelativeDocumentMoniker": "Proyecto_BDD_Servidor_Dotnet_SOAP_GR04\\espe.edu.ec.monster.modelo\\IConversionService.cs",
+              "ToolTip": "C:\\Users\\karol\\OneDrive\\Documentos\\git\\TRABAJOS_MOUNSTER\\Proyecto_BDD_Servidor_Dotnet_SOAP_GR04\\Proyecto_BDD_Servidor_Dotnet_SOAP_GR04\\espe.edu.ec.monster.modelo\\IConversionService.cs",
+              "RelativeToolTip": "Proyecto_BDD_Servidor_Dotnet_SOAP_GR04\\espe.edu.ec.monster.modelo\\IConversionService.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T07:36:26.46Z",
+>>>>>>> a546df2fe68ad702127e585a83a4000280b9ef7e
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 2,
               "Title": "ConversionService.cs",
               "DocumentMoniker": "C:\\00. SOA_SIN_BDD\\01. SOAP_JAVA_CONUNI_GR04\\Proyecto_BDD_Servidor_Dotnet_SOAP_GR04\\Proyecto_BDD_Servidor_Dotnet_SOAP_GR04\\espe.edu.ec.monster.controlador\\ConversionService.cs",
@@ -78,6 +121,17 @@
               "ViewState": "AgIAACEAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-12T14:38:26.608Z",
+=======
+              "DocumentIndex": 0,
+              "Title": "ConversionService.cs",
+              "DocumentMoniker": "C:\\Users\\karol\\OneDrive\\Documentos\\git\\TRABAJOS_MOUNSTER\\Proyecto_BDD_Servidor_Dotnet_SOAP_GR04\\Proyecto_BDD_Servidor_Dotnet_SOAP_GR04\\espe.edu.ec.monster.controlador\\ConversionService.cs",
+              "RelativeDocumentMoniker": "Proyecto_BDD_Servidor_Dotnet_SOAP_GR04\\espe.edu.ec.monster.controlador\\ConversionService.cs",
+              "ToolTip": "C:\\Users\\karol\\OneDrive\\Documentos\\git\\TRABAJOS_MOUNSTER\\Proyecto_BDD_Servidor_Dotnet_SOAP_GR04\\Proyecto_BDD_Servidor_Dotnet_SOAP_GR04\\espe.edu.ec.monster.controlador\\ConversionService.cs",
+              "RelativeToolTip": "Proyecto_BDD_Servidor_Dotnet_SOAP_GR04\\espe.edu.ec.monster.controlador\\ConversionService.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwCsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T07:36:21.761Z",
+>>>>>>> a546df2fe68ad702127e585a83a4000280b9ef7e
               "EditorCaption": ""
             }
           ]
