@@ -7,3 +7,6 @@ java -jar payara-micro.jar --deploy target/temperature-service.war
 
 # Enpaquetar por si hay correcion es primera vez 
 mvn clean package
+
+# servicio
+http://localhost:8080/temperature-service/api/application.wadl

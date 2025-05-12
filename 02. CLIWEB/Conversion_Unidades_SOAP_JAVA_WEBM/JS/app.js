@@ -1,6 +1,6 @@
 // app.js
 
-const API_BASE = "http://localhost:8080/temperature-service";
+const API_BASE = "http://10.40.26.120:8080/temperature-service";
 
 // =================== LOGIN ===================
 document.addEventListener("DOMContentLoaded", () => {

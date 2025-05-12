@@ -53,7 +53,7 @@ public class MainWindow extends JFrame{
 
     public void convertir(String endpoint, String param, double valor) {
         try {
-            String urlStr = "http://localhost:8080/temperature-service/api/temperature/" +
+            String urlStr = "http://10.40.26.120:8080/temperature-service/api/temperature/" +
                             endpoint + "?" + param + "=" + valor;
             URL url = new URL(urlStr);
             HttpURLConnection conn = (HttpURLConnection) url.openConnection();

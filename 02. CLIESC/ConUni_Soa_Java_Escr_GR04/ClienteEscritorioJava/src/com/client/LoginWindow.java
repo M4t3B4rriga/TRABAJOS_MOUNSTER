@@ -46,7 +46,7 @@ public class LoginWindow extends JFrame{
 
     public boolean login(String username, String password) {
         try {
-            URL url = new URL("http://localhost:8080/temperature-service/api/auth/login");
+            URL url = new URL("http://10.40.26.120:8080/temperature-service/api/auth/login");
             HttpURLConnection conn = (HttpURLConnection) url.openConnection();
             conn.setRequestMethod("POST");
             conn.setRequestProperty("Content-Type", "application/json");

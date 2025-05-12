@@ -24,7 +24,7 @@
         password: document.getElementById('password').value
       };
       
-      const res = await fetch('http://localhost:8080/temperature-service/api/auth/login', {
+      const res = await fetch('http://10.40.26.120:8080/temperature-service/api/auth/login', {
         method: 'POST',
         headers: {'Content-Type': 'application/json'},
         body: JSON.stringify(user)

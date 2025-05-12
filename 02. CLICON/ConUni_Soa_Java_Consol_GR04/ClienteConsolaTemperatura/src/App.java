@@ -73,7 +73,7 @@ public class App {
 
     public static boolean login(String username, String password) {
         try {
-            URL url = new URL("http://localhost:8080/temperature-service/api/auth/login");
+            URL url = new URL("http://10.40.26.120:8080/temperature-service/api/auth/login");
             HttpURLConnection conn = (HttpURLConnection) url.openConnection();
             conn.setRequestMethod("POST");
             conn.setRequestProperty("Content-Type", "application/json");
@@ -98,7 +98,7 @@ public class App {
 
     public static void convertirCelsiusAFahrenheit(double celsius) {
         try {
-            URL url = new URL("http://localhost:8080/temperature-service/api/temperature/toFahrenheit?celsius=" + celsius);
+            URL url = new URL("http://10.40.26.120:8080/temperature-service/api/temperature/toFahrenheit?celsius=" + celsius);
             HttpURLConnection conn = (HttpURLConnection) url.openConnection();
             conn.setRequestMethod("GET");
 
@@ -115,7 +115,7 @@ public class App {
 
     public static void convertirFahrenheitACelsius(double fahrenheit) {
         try {
-            URL url = new URL("http://localhost:8080/temperature-service/api/temperature/toCelsius?fahrenheit=" + fahrenheit);
+            URL url = new URL("http://10.40.26.120:8080/temperature-service/api/temperature/toCelsius?fahrenheit=" + fahrenheit);
             HttpURLConnection conn = (HttpURLConnection) url.openConnection();
             conn.setRequestMethod("GET");
 
