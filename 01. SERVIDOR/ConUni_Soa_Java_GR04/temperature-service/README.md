@@ -3,3 +3,7 @@ java -Dpayara.http.host=0.0.0.0 -jar payara-micro.jar --deploy target/temperatur
 
 # Para correr el servicio de manera local
 java -jar payara-micro.jar --deploy target/temperature-service.war  
+
+
+# Enpaquetar por si hay correcion es primera vez 
+mvn clean package

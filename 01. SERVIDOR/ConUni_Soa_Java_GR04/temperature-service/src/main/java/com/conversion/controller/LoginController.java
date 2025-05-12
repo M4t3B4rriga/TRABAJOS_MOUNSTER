@@ -18,7 +18,7 @@ public class LoginController {
     @Consumes(MediaType.APPLICATION_JSON)
     @Produces(MediaType.APPLICATION_JSON)
     public Response login(User user) {
-        if ("mounster".equals(user.getUsername()) && "mounster9".equals(user.getPassword())) {
+        if ("monster".equals(user.getUsername()) && "monster9".equals(user.getPassword())) {
             return Response.ok("{\"token\": \"login_ok\"}").build();
         }
         return Response.status(Response.Status.UNAUTHORIZED).build();
