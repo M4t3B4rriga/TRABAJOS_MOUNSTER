@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .vs/
 *.user
 *.suo
@@ -12,3 +13,30 @@
 *.dll
 bin/
 obj/
+=======
+
+# Archivos compilados de Java
+*.class
+*.war
+*.ear
+*.jar
+
+# Directorios generados
+target/
+bin/
+build/
+out/
+
+# Archivos de IDE
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+
+# Archivos temporales
+*.log
+*.tmp
+*.bak
+
+>>>>>>> dd260ad15e81f45c918b5ac5acf05dcf17e2af27

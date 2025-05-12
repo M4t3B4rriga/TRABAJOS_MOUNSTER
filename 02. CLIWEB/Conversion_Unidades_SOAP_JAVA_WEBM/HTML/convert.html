@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Conversión de Temperatura</title>
+  <link rel="stylesheet" href="../CSS/style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Conversor de Temperatura</h1>
+    <input type="number" id="valor" placeholder="Ingrese valor" />
+    <select id="tipo">
+      <option value="toFahrenheit">Celsius a Fahrenheit</option>
+      <option value="toCelsius">Fahrenheit a Celsius</option>
+    </select>
+    <button onclick="convertir()">Convertir</button>
+    <p id="resultado"></p>
+  </div>
+
+  <script>
+    async function convertir() {
+      const valor = document.getElementById('valor').value;
+      const tipo = document.getElementById('tipo').value;
+
+      let url = "";
+      if (tipo === "toFahrenheit") {
+        url = `http://10.40.26.120:8080/temperature-service/api/temperature/toFahrenheit?celsius=${valor}`;
+      } else {
+        url = `http://10.40.26.120:8080/temperature-service/api/temperature/toCelsius?fahrenheit=${valor}`;
+      }
+
+      try {
+        const res = await fetch(url);
+        const data = await res.json();
+        const resultado = tipo === "toFahrenheit" ? data.fahrenheit : data.celsius;
+        document.getElementById("resultado").textContent = `Resultado: ${resultado}`;
+      } catch (error) {
+        document.getElementById("resultado").textContent = "Error en la conversión.";
+        console.error(error);
+      }
+    }
+  </script>
+</body>
+</html>
