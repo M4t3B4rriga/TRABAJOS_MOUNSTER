@@ -1,0 +1,111 @@
+﻿@model ClienteWebSOAP.Models.ConversionModel
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Conversión de Unidades</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url("/Content/fon.jpg");
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            font-family: Arial, sans-serif;
+        }
+
+        .contenedor {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .formulario {
+            background: rgba(255, 255, 255, 0.96);
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+            width: 400px;
+        }
+
+            .formulario h2 {
+                text-align: center;
+                margin-bottom: 20px;
+            }
+
+            .formulario label {
+                display: block;
+                margin-top: 10px;
+            }
+
+            .formulario select,
+            .formulario input[type="text"] {
+                width: 100%;
+                padding: 8px;
+                margin-top: 5px;
+                margin-bottom: 15px;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+            }
+
+            .formulario input[type="submit"] {
+                width: 100%;
+                padding: 10px;
+                background-color: #28a745;
+                border: none;
+                color: white;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+
+                .formulario input[type="submit"]:hover {
+                    background-color: #218838;
+                }
+
+        .resultado {
+            margin-top: 15px;
+            font-weight: bold;
+            text-align: center;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="contenedor">
+        <div class="formulario">
+            <h2>Conversión de Unidades</h2>
+
+            @using (Html.BeginForm())
+            {
+                <label>Seleccione la conversión:</label>
+                @Html.DropDownListFor(m => m.TipoConversion, new SelectList(new[] {
+                    new { Text = "Centímetros a Pies", Value = "cmToFt" },
+                    new { Text = "Pies a Centímetros", Value = "ftToCm" },
+                    new { Text = "Metros a Yardas", Value = "mToYd" },
+                    new { Text = "Yardas a Metros", Value = "ydToM" },
+                    new { Text = "Pulgadas a Centímetros", Value = "inToCm" },
+                    new { Text = "Centímetros a Pulgadas", Value = "cmToIn" }
+                }, "Value", "Text"), "Seleccione una opción...", new { @class = "form-control" })
+
+                <label>Ingrese un valor:</label>
+                @Html.TextBoxFor(m => m.Valor, new { @class = "form-control" })
+
+                <input type="submit" value="Convertir" />
+
+                if (Model.Resultado != 0)
+                {
+                    <div class="resultado">
+                        Resultado: @Model.Resultado
+                    </div>
+                }
+            }
+        </div>
+    </div>
+</body>
+</html>

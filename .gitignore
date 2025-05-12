@@ -1,0 +1,14 @@
+.vs/
+*.user
+*.suo
+*.dbmdl
+*.bak
+*.tmp
+*.log
+*.jpg
+*.png
+*.gif
+*.exe
+*.dll
+bin/
+obj/
