@@ -40,3 +40,5 @@ out/
 *.bak
 
 >>>>>>> dd260ad15e81f45c918b5ac5acf05dcf17e2af27
+/01. SERVIDOR/ConUni_Soa_Java_ServidorGR04/nbproject/private/
+/01. SERVIDOR/ConUni_Soa_Java_ServidorGR04/dist/
