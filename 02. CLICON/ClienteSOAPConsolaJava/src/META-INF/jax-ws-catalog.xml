@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="http://192.168.100.94:8080/ConUni_Soa_Java_ServidorGR04/ServicioConversionService?wsdl" uri="wsdl/192.168.100.94_8080/ConUni_Soa_Java_ServidorGR04/ServicioConversionService.wsdl"/>
+    <system systemId="http://192.168.100.94:8080/ConUni_Soa_Java_ServidorGR04/ServicioConversionService?xsd=1" uri="wsdl/192.168.100.94_8080/ConUni_Soa_Java_ServidorGR04/ServicioConversionService.xsd_1.xsd"/>
+</catalog>

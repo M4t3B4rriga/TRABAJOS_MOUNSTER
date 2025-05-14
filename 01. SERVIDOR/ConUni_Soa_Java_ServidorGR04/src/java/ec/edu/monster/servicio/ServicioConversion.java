@@ -11,9 +11,17 @@ package ec.edu.monster.servicio;
 
 import jakarta.jws.WebMethod;
 import jakarta.jws.WebService;
+import ec.edu.monster.modelo.Usuarios;
 
 @WebService
 public class ServicioConversion {
+    // Usuario quemado
+    private final Usuarios usuarioValido = new Usuarios("monster", "monster9");
+
+    @WebMethod
+    public boolean login(String username, String password) {
+        return usuarioValido.validar(username, password);
+    }
     @WebMethod
     public double celsiusToFahrenheit(double celsius) {
         return (celsius * 9/5) + 32;
