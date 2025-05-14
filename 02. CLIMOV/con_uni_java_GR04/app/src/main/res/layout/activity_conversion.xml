@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@drawable/fondo"
+    android:gravity="center_horizontal">
+
+    <!-- Título principal -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Conversor de Temperatura"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="24dp"/>
+
+    <!-- CardView para Celsius a Fahrenheit -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="4dp"
+        android:layout_marginBottom="24dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Celsius a Fahrenheit"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:layout_gravity="center_horizontal"/>
+
+            <EditText
+                android:id="@+id/etCelsius"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:hint="Ingrese grados Celsius"
+                android:inputType="numberDecimal"
+                android:background="@drawable/edittext_background"
+                android:layout_marginTop="8dp"
+                android:paddingStart="12dp"/>
+
+            <Button
+                android:id="@+id/btnToFahrenheit"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="Convertir a Fahrenheit"
+                android:textSize="18sp"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="@color/purple_500"
+            android:textColor="@color/black"
+            style="@style/Widget.MaterialComponents.Button"/>
+
+            <TextView
+                android:id="@+id/tvFahrenheitResult"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_marginTop="16dp"
+                android:textColor="@android:color/black"
+                android:gravity="center"
+            android:textStyle="bold"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <!-- CardView para Fahrenheit a Celsius -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="4dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fahrenheit a Celsius"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:layout_gravity="center_horizontal"/>
+
+            <EditText
+                android:id="@+id/etFahrenheit"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:hint="Ingrese grados Fahrenheit"
+                android:inputType="numberDecimal"
+                android:background="@drawable/edittext_background"
+                android:layout_marginTop="8dp"
+                android:paddingStart="12dp"/>
+
+            <Button
+                android:id="@+id/btnToCelsius"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="Convertir a Celsius"
+                android:textSize="18sp"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="@color/purple_500"
+            android:textColor="@color/black"
+            style="@style/Widget.MaterialComponents.Button"/>
+
+            <TextView
+                android:id="@+id/tvCelsiusResult"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_marginTop="16dp"
+                android:textColor="@android:color/black"
+                android:gravity="center"
+            android:textStyle="bold"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
