@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Conversión SOAP</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="container">
+    <h1>Conversor de Temperatura</h1>
+    <input type="text" id="valor" placeholder="Ingrese valor">
+    <select id="tipo">
+        <option value="celsiusToFahrenheit">Celsius a Fahrenheit</option>
+        <option value="fahrenheitToCelsius">Fahrenheit a Celsius</option>
+    </select>
+    <button id="convertirBtn">Convertir</button>
+    <p id="resultado"></p>
+</div>
+    <!-- Carga por orden -->
+    <script type="module" src="soapRequest.js"></script>
+    <script type="module" src="model/ConversionModel.js"></script>
+    <script type="module" src="view/ConversionView.js"></script>
+    <script type="module" src="controller/ConversionController.js"></script>
+</body>
+</html>

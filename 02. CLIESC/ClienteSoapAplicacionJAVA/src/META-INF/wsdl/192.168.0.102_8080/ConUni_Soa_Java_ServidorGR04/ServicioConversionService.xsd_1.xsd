@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?><!-- Published by XML-WS Runtime (https://github.com/eclipse-ee4j/metro-jax-ws). Runtime's version is Eclipse Metro/4.0.3.payara-p1 (metro-4.0.3.payara-maintenance-004e4e3; 2023-11-08T12:59:53+0000) XMLWS-Impl/4.0.2 XMLWS-API/4.0.1 XMLB-Impl/4.0.4 XMLB-API/4.0.1 git-revision#004e4e3. --><xs:schema xmlns:tns="http://servicio.monster.edu.ec/" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0" targetNamespace="http://servicio.monster.edu.ec/">
+
+<xs:element name="celsiusToFahrenheit" type="tns:celsiusToFahrenheit"/>
+
+<xs:element name="celsiusToFahrenheitResponse" type="tns:celsiusToFahrenheitResponse"/>
+
+<xs:element name="fahrenheitToCelsius" type="tns:fahrenheitToCelsius"/>
+
+<xs:element name="fahrenheitToCelsiusResponse" type="tns:fahrenheitToCelsiusResponse"/>
+
+<xs:element name="login" type="tns:login"/>
+
+<xs:element name="loginResponse" type="tns:loginResponse"/>
+
+<xs:complexType name="fahrenheitToCelsius">
+<xs:sequence>
+<xs:element name="arg0" type="xs:double"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="fahrenheitToCelsiusResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:double"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="celsiusToFahrenheit">
+<xs:sequence>
+<xs:element name="arg0" type="xs:double"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="celsiusToFahrenheitResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:double"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="login">
+<xs:sequence>
+<xs:element name="arg0" type="xs:string" minOccurs="0"/>
+<xs:element name="arg1" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="loginResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:boolean"/>
+</xs:sequence>
+</xs:complexType>
+</xs:schema>
